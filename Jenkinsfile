@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/pratheek08/helloworld-java.git'
+                git branch: 'main', url: 'https://github.com/pratheek08/Java-hello-world'
             }
         }
 
